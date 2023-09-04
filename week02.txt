@@ -1,6 +1,6 @@
 week02
 
--linux command : ls, ls -a, ls -al, pwd, cd .git, cd -
+-linux command : ls, ls -a, ls -al, pwd, cd .git, cd -, echo "babaabab" >> README.md
 - git command
   git init
   git status
@@ -10,3 +10,10 @@ week02
   git config --global --list
   git commint -m "v0"
   git log
+  git checkout hashcode
+  git checkout -
+  git branch -M main
+  git remote add origin https://github.com/inhatckimtaeganc/test.git
+  git remote -v
+  git push -u origin main
+  
